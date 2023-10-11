@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <style>
+        body {
+            background-image: url('/images/me.png');
+            background-size: cover; /* Adjust the image size to cover the entire viewport */
+            background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        }
+    </style>
+</head>
+<body background="me.png">
+    
+    <%- include('partials/header') %>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="welcome">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is the home page of my portfolio website. You can navigate to other pages using the navigation bar.</p>
+        <a href="/about">Learn More</a>
+    </section>
+    <%- include('partials/footer') %>
+</body>
+</html>

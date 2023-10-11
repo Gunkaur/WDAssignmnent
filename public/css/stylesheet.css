@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: rgba(255, 253, 253, 0.432);
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling for welcome section */
+.welcome {
+    text-align: center;
+    padding: 2rem;
+}
+
+.welcome h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.welcome p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.welcome a {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+    /* Change font size and color for the links */
+    a {
+        font-size: 25px; /* Set your desired font size */
+        color: #186e0a; /* Set your desired color */
+        text-decoration: none; /* Remove underlines from links */
+        font-weight: bold;
+    }
+
+
+
